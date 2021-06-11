@@ -1,0 +1,106 @@
+body {
+  font-family: "Lato", sans-serif;
+  background-color: #e4e9f0;
+}
+
+
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .navbara {padding-top: 15px;}
+  .navbara a {font-size: 18px;}
+}
+
+
+
+/*................................................................................*/
+.navbara {
+  overflow: hidden;
+  background: rgba(0,0,0,0.4);
+  font-family: Arial;
+}
+
+/* Links inside the navbar */
+.navbara a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* The dropdown container */
+.dropdowna {
+  float: left;
+  overflow: hidden;
+}
+
+/* Dropdown button */
+.dropdowna .dropbtna {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit; /* Important for vertical align on mobile phones */
+  margin: 0; /* Important for vertical align on mobile phones */
+}
+
+/* Add a red background color to navbar links on hover */
+.navbara a:hover, .dropdowna:hover .dropbtna {
+  background-color: red;
+}
+
+/* Dropdown content (hidden by default) */
+.dropdowna-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdowna-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+/* Add a grey background color to dropdown links on hover */
+.dropdowna-content a:hover {
+  background-color: #ddd;
+}
+
+/* Show the dropdown menu on hover */
+.dropdowna:hover .dropdowna-content {
+  display: block;
+}
+.error{
+  background-color: red;
+}
+@media screen and (max-height: 450px) {
+  .navbara {padding-top: 15px;}
+  .navbara a {font-size: 18px;}
+}
+
+.footer-section {
+    padding:25px 50px 25px 50px;
+    margin-top: auto;
+    color:#000;
+    font-size:13px;
+      background-color: #f7f7f7;
+      text-align:right;
+       border-top:5px solid #9170E4;
+
+}
+
+    .footer-section a, .footer-section a:hover {
+        color:#000;
+    }
